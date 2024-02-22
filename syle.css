@@ -1,0 +1,61 @@
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top:2px;
+  padding-bottom: 0.5rem;
+  color: #E33E19;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer!important;
+}
+
+.active.nav-item {
+  border-top-width: 10px;
+  padding-top:0;
+  color: black;
+}
+
+.nav-item:hover {
+  border-top: 3px solid #E33E19!important;
+  padding-top:0;
+}
+.navbar-nav li.nav-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+
+.btn:hover {
+  color: black;
+  background-color: #ffe18c;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.image-overlay {
+  position: relative;
+  background-image: url('https://courses.ics.hawaii.edu/ics314s24/morea/ui-frameworks/morning-brew-coffee.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: 'noticia text', serif;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+#centerImage .container h1 {
+  margin-left: -40px; /* Adjust this value to move the text further left */
+}
+
+#centerImage .container h2 {
+  margin-left: -40px; /* Adjust this value to move the text further left */
+}
